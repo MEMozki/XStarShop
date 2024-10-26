@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lilita One', cursive; /* Основной шрифт */
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -13,7 +13,6 @@ header {
     background-color: #ffcc00;
     padding: 20px;
     text-align: center;
-    font-family: 'Bangers', cursive;
 }
 
 h1 {
@@ -64,11 +63,10 @@ nav ul li a:hover {
 
 .product-item h3 {
     margin: 10px 0;
-    font-family: 'Bangers', cursive; 
 }
 
 button {
-    background-color: #28a745;
+    background-color: #ffcc00; /* Желтый цвет кнопки */
     color: white;
     border: none;
     padding: 10px;
@@ -77,7 +75,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #e6b800; /* Темнее желтый при наведении */
 }
 
 .payment-info {
@@ -90,4 +88,4 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
-  }
+}
