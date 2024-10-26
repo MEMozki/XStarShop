@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Stars Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>X Stars Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#other">Другое</a></li>
+                <li><a href="#currency">Валюта</a></li>
+                <li><a href="#prefixes">Префиксы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="products" id="other">
+        <h2>Другое</h2>
+        <div class="product-item">
+            <img src="img/skin.png" alt="ЛЮБОЙ СКИН BRAWL PASS">
+            <h3>ЛЮБОЙ СКИН BRAWL PASS - 90₽</h3>
+            <button onclick="buyProduct(90, 'ЛЮБОЙ СКИН BRAWL PASS')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/club.png" alt="ПЕРЕИМЕНОВАТЬ КЛУБ">
+            <h3>ПЕРЕИМЕНОВАТЬ КЛУБ - 30₽</h3>
+            <button onclick="buyProduct(30, 'ПЕРЕИМЕНОВАТЬ КЛУБ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/xpass.png" alt="X PASS">
+            <h3>X PASS - 169₽</h3>
+            <button onclick="buyProduct(169, 'X PASS')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/unlock.png" alt="РАЗБАН">
+            <h3>РАЗБАН - 120₽</h3>
+            <button onclick="buyProduct(120, 'РАЗБАН')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/title.png" alt="ЛЮБОЙ ТИТУЛ BRAWL PASS">
+            <h3>ЛЮБОЙ ТИТУЛ BRAWL PASS - 75₽</h3>
+            <button onclick="buyProduct(75, 'ЛЮБОЙ ТИТУЛ BRAWL PASS')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/pin.png" alt="ЛЮБОЙ УНИКАЛЬНЫЙ ПИН">
+            <h3>ЛЮБОЙ УНИКАЛЬНЫЙ ПИН - 40₽</h3>
+            <button onclick="buyProduct(40, 'ЛЮБОЙ УНИКАЛЬНЫЙ ПИН')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/icon.png" alt="ЛЮБАЯ ИКОНКА ПРОФИЛЯ">
+            <h3>ЛЮБАЯ ИКОНКА ПРОФИЛЯ - 40₽</h3>
+            <button onclick="buyProduct(40, 'ЛЮБАЯ ИКОНКА ПРОФИЛЯ')">Купить</button>
+        </div>
+    </div>
+
+    <div class="products" id="currency">
+        <h2>Валюта</h2>
+        <div class="product-item">
+            <img src="img/bling1000.png" alt="1000 БЛИНГОВ">
+            <h3>1000 БЛИНГОВ - 99₽</h3>
+            <button onclick="buyProduct(99, '1000 БЛИНГОВ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/bling2000.png" alt="2000 БЛИНГОВ">
+            <h3>2000 БЛИНГОВ - 189₽</h3>
+            <button onclick="buyProduct(189, '2000 БЛИНГОВ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/gems100.png" alt="100 ГЕМОВ">
+            <h3>100 ГЕМОВ - 199₽</h3>
+            <button onclick="buyProduct(199, '100 ГЕМОВ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/gems600.png" alt="600 ГЕМОВ">
+            <h3>600 ГЕМОВ - 479₽</h3>
+            <button onclick="buyProduct(479, '600 ГЕМОВ')">Купить</button>
+        </div>
+    </div>
+
+    <div class="products" id="prefixes">
+        <h2>Префиксы</h2>
+        <div class="product-item">
+            <img src="img/pusher.png" alt="ПУШЕР">
+            <h3>ПУШЕР - 49₽</h3>
+            <button onclick="buyProduct(49, 'ПУШЕР')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/king.png" alt="ВАШ КОРОЛЬ">
+            <h3>ВАШ КОРОЛЬ - 49₽</h3>
+            <button onclick="buyProduct(49, 'ВАШ КОРОЛЬ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/mother.png" alt="ТВОЮ МАТЬ">
+            <h3>ТВОЮ МАТЬ - 49₽</h3>
+            <button onclick="buyProduct(49, 'ТВОЮ МАТЬ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/wise.png" alt="МУДРЫЙ ДУБ">
+            <h3>МУДРЫЙ ДУБ - 49₽</h3>
+            <button onclick="buyProduct(49, 'МУДРЫЙ ДУБ')">Купить</button>
+        </div>
+        <div class="product-item">
+            <img src="img/all_prefixes.png" alt="ВСЕ ПРЕФИКСЫ СРАЗУ">
+            <h3>ВСЕ ПРЕФИКСЫ СРАЗУ - 200₽</h3>
+            <button onclick="buyProduct(200, 'ВСЕ ПРЕФИКСЫ СРАЗУ')">Купить</button>
+        </div>
+    </div>
+
+    <div class="payment-info">
+        <a href="https://freekassa.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.freekassa.com/banners/big-dark-1.png" title="Прием платежей на сайте">
+        </a>
+        <p>Пока FreeKassa недоступна, покупка не будет завершена.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 X Stars Shop. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
